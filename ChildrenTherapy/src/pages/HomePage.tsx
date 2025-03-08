@@ -44,10 +44,7 @@ export default function HomePage() {
   };
 
   return (
-    <div 
-      className="min-h-screen bg-cover bg-no-repeat bg-center" 
-      style={{ backgroundImage: "url('/assets/HomeBg.jpg')" }}
-    >
+    <div>
       {/* Card Section */}
       <div className="container mx-auto px-4 py-20 flex flex-col items-center">
         <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
